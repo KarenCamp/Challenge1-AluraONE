@@ -6,7 +6,7 @@ Obs:
 
 - A primeira ramificação está na segunda branch, de nome: "primeiro-template-trabalhado".
 
-- Link-deploy: https://karencamp.github.io/Challenge1-AluraONE/
+- Link_deploy: https://karencamp.github.io/Challenge1-AluraONE/
 
 
 
