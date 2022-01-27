@@ -109,7 +109,7 @@ h4 {
 
 .btn1 {
     position: static;
-    width: /*343px;*/ 310px;
+    width: /*343px;*/ 290px;
     height: 67px; /*19px;*/
     left: 0px;/*24px;*/
     top: 0px;/*24px;*/
@@ -136,7 +136,7 @@ h4 {
 
 .btn2 {
     position: static;
-    width: /*343px;*/ 310px;
+    width: /*343px;*/ 290px;
     height: 67px; /*19px;*/
     left: 0px;/*24px;*/
     top: 0px;/*24px;*/
@@ -161,7 +161,7 @@ h4 {
 
 .btn3 {
     position: static;
-    width: 262px; /*295px;*/
+    width: 242px; /*295px;*/
     height: 67px; /*19px;*/
     left: 0px;/*24px;*/
     top: 0px;/*24px;*/
@@ -187,7 +187,7 @@ h4 {
 
 h2 {
     position: static;
-    width: 236px; /*263px;*/
+    width: 216px; /*263px;*/
     height: 58px;
     left: 0px;
     top: 0px;
@@ -208,7 +208,7 @@ h2 {
 
 h3 {
     /* Digite um texto que você deseja criptografar ou descriptografar. */
-    width: 236px; /*263px;*/
+    width: 216px; /*263px;*/
     height: 48px;
     left: 30px;/*0px;*/
     top: 120px;/*74px;*/
@@ -235,9 +235,9 @@ h3 {
     align-items: flex-start;
     padding: 32px;
     position: absolute;
-    width: 236px; /*263px;*//*327px;*/
-    height: 186px;/*186px;*/
-    max-width: 236px;
+    width: 216px; /*263px;*//*327px;*/
+    height: 206px;/*186px;*/
+    max-width: 216px;
     left: 24px;
     top: 707px;
     background: #FFFFFF;
@@ -250,7 +250,7 @@ h3 {
 footer {
     position:absolute;
     width: 375px;
-    height: 45px;
+    height: 65px;
     left: 0px;
     top: 960px;
 }

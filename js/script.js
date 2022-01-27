@@ -23,7 +23,7 @@ btnBox.addEventListener("click", function (event) {
         txtBox.textContent = "Digite um texto que você deseja criptografar ou descriptografar, com o recomendável de 130 caracteres por vez para a criptografia e o máximo de 270 caracteres por vez para a descriptografia."; 
         limpah2.textContent = "Nenhuma mensagem encontrada"; 
         btnCopy.style.display = "none"; 
-        divContainer.style.height = "186px"; 
+        divContainer.style.height = "206px"; 
         footerExtended.style.marginTop = "5px";
 
     }
@@ -36,16 +36,16 @@ btnBox.addEventListener("click", function (event) {
         btnCopy.style.display = "block";
         divContainer.style.height = "296px";
         btnCopy.style.marginTop = "180px";
-        footerExtended.style.marginTop = "120px";
+        footerExtended.style.marginTop = "100px";
     
     }
 
     else {
 
-        txtBox.textContent = txtCripto;
+        txtBox.innerHTML = "<br>" + txtCripto;
         limpah2.textContent = "Novas implementações em breve!";
         btnCopy.style.display = "none";
-        divContainer.style.height = "186px"; 
+        divContainer.style.height = "206px"; 
         footerExtended.style.marginTop = "5px";
 
     }
@@ -66,7 +66,7 @@ btn2Box.addEventListener("click", function (event) {
         txtBox.textContent = "Digite um texto que você deseja criptografar ou descriptografar, com o recomendável de 130 caracteres por vez para a criptografia e o máximo de 270 caracteres por vez para a descriptografia."; 
         limpah2.textContent = "Nenhuma mensagem encontrada"; 
         btnCopy.style.display = "none";
-        divContainer.style.height = "186px"; 
+        divContainer.style.height = "206px"; 
         footerExtended.style.marginTop = "5px";
         
     }
@@ -79,16 +79,16 @@ btn2Box.addEventListener("click", function (event) {
         btnCopy.style.display = "block";
         divContainer.style.height = "296px";
         btnCopy.style.marginTop = "180px";
-        footerExtended.style.marginTop = "120px";
+        footerExtended.style.marginTop = "100px";
 
     }
 
     else {
 
-        txtBox.textContent = txtDescripto;
+        txtBox.innerHTML = "<br>" + txtDescripto;
         limpah2.textContent = "Novas implementações em breve!";
         btnCopy.style.display = "none";
-        divContainer.style.height = "186px"; 
+        divContainer.style.height = "206px"; 
         footerExtended.style.marginTop = "5px";
         
     }
