@@ -1,4 +1,5 @@
 Mais em: https://github.com/KarenCamp/Challenge1-AluraONE/tree/main#readme
+
 Esta é a primeira das ramificações que abordo neste outro README que linkei acima.
 
 Obs:
