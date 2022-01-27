@@ -1,0 +1,257 @@
+body {
+    background-color:#E5E5E5;
+}
+
+header {
+    position: absolute;
+    width: 375px;
+    height: 96px;
+    left: 0px;
+    top: 0px;
+}
+
+/*picture {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border-radius: 0px 0px 16px 16px;
+    background-color: white;
+}*/
+
+.logo {
+    position: absolute;
+    left: 4.27%;
+    right: 87.2%;
+    top: 25%;
+    bottom: 25%;
+}
+
+textarea {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    resize: none;
+} 
+
+textarea::placeholder {
+    color: #0A3871;
+    opacity: 1;
+  }
+
+#input-texto {
+    position: absolute;
+    width: 343px;
+    height: 48px;
+    left: 16px;
+    top: 152px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+}
+
+div#escl {
+    /* Frame 1 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 252px;
+    height: 18px;
+    left: 16px;
+    top: 451px;
+}
+
+.img-excl {
+    /* Vector */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+h4 {
+    position: static;
+    width: 228px;
+    height: 18px;
+    left: 24px;
+    top: 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #343A40;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+
+#cont-btn {
+    /* Frame 3 */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 343px;
+    height: 158px;
+    left: 16px;
+    top: 485px;
+}
+
+.btn1 {
+    position: static;
+    width: 343px; /*295px;*/
+    height: 67px; /*19px;*/
+    left: 0px;/*24px;*/
+    top: 0px;/*24px;*/
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    background: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    border-radius: 24px;
+    padding: 24px;
+    margin: 0px 0px;/*0px 8px;*/
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+}
+
+.btn1:hover {
+    background-color: #0a3871c7;
+}
+
+.btn2 {
+    position: static;
+    width: 343px; /*295px;*/
+    height: 67px; /*19px;*/
+    left: 0px;/*24px;*/
+    top: 0px;/*24px;*/
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    border-radius: 24px;
+    padding: 24px;
+    margin: 0px 0px;/*0px 8px;*/
+    text-align: center;
+}
+
+.btn2:hover {
+    background-color: lightgrey;
+}
+
+.btn3 {
+    position: static;
+    width: 295px; /*295px;*/
+    height: 67px; /*19px;*/
+    left: 0px;/*24px;*/
+    top: 0px;/*24px;*/
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    border-radius: 24px;
+    padding: 24px;
+    margin: 50px -15px;/*0px 8px;*/
+    background-color: #FFFFFF;
+}
+
+.btn3:hover {
+    background-color: lightgrey;
+}
+
+h2 {
+    position: static;
+    width: 263px;
+    height: 58px;
+    left: 0px;
+    top: 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 5px 0px;
+    
+}
+
+h3 {
+    /* Digite um texto que você deseja criptografar ou descriptografar. */
+    width: 263px;
+    height: 48px;
+    left: 30px;/*0px;*/
+    top: 120px;/*74px;*/
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+    margin-top: -10px;
+    position:absolute;
+}
+
+#container {
+    /* Frame 5 */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    position: absolute;
+    width: 263px;/*327px;*/
+    height: 166px;/*186px;*/
+    max-width: 263px;
+    left: 24px;
+    top: 707px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+footer {
+    position:absolute;
+    width: 375px;
+    height: 25px;
+    left: 0px;
+    top: 960px;
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Decodificador</title>
+</head>
+<header>
+<picture>
+    <img src="imgs/logo-peq-alu.png" class="logo" alt="Logotipo pequeno da Alura">
+</picture>
+</header>
+<body onload="limpaTextos()">
+    <form action="" id="theform">
+        <textarea type="text" name="thetxtarea" id="input-texto" class="text-input" maxlength="270" rows="4" cols="50" style="width: 350px; height: 290px; background-color: #E5E5E5;" placeholder="Digite seu texto"></textarea>
+    </form>
+    <div id="escl"><img src="imgs/excl.png" class="img-excl"><h4>&nbsp;&nbsp;&nbsp; Letras minúsculas, sem acentos nas palavras</h4></div>
+    <div id="cont-btn">
+    <input class="btn1" type="submit" value="Criptografar" id="btn-cripto">
+    <input class="btn2" type="submit" value="Descriptografar" id="btn-descripto">
+    </div>
+    <div id="container">
+    <h2 class="limpa-h2">Nenhuma mensagem encontrada</h2>
+    <h3 id="msg">Digite um texto que você deseja criptografar ou descriptografar, com o recomendável de 130 caracteres por vez para a criptografia e o máximo de 270 caracteres por vez para a descriptografia.</h3>
+    <input class="btn3" type="submit" value="Copiar" id="btn-copy">
+    </div>
+    <footer>
+   </footer>
+   <script src="js/script.js"></script>
+</body>
+</html>
