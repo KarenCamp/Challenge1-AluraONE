@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decodificador de Texto com JS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<header>
+  <h1 class="titulo">Código Secreto</h1>
+</header>
+  
+  <body onload="limpaTextos()">
+  
+    <main class="main">
+    
+    <div id="container">
+    
+    <section class="form">
+      <form action="" id="theform">
+        <label for="input-texto"><strong>Trabalharemos com letras minúsculas, sem acentos nas palavras:</strong></label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="insira o texto aqui">
+        <input class="btn" type="submit" value="Criptografar!" id="btn-cripto">
+        <input class="btn" type="submit" value="Descriptografar!" id="btn-descripto">
+      </form>
+    </section>
+  
+    <section class="box">
+      <h2 id="titulonvl2">Mensagem criptografada:</h2>
+      <input class="text-input" type="text" id="msg"></input>
+      <input class="btn" type="submit" value="Copiar" id="btn-copy">
+    </section>
+    
+  </div>
+  
+</main>
+ 
+<script src="js/script.js"></script>
+ 
+<footer>
+  <h3>Desenvolvido por Linda, Pérola e Guaraciara</h3>
+</footer>
+
+</body>
+</html>
